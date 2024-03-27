@@ -38,6 +38,7 @@
     --fw-9: 900;
 
     /* COLORS */
+    --blur: #01010140;
     --dark: #140D1B;
     --white: #FFFFFF;
     --black: #010101;
@@ -47,6 +48,9 @@
     --grey2: #8A8EF714;
     --grey3: #FFFFFF99;
     --black2:#FFFFFF14;
+}
+.blur{
+    color: var(--blur);
 }
 .dark{
     color: var(--dark);

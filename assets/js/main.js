@@ -6,3 +6,41 @@ function openNav() {
 function upside() {
   document.getElementById("mini-svg").classList.toggle("translate_up")
 }
+$('.responsive_1').slick({
+  dots: true,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows: false,
+  autoplay: false,
+  speed: 900,
+  prevArrow: ".prev-btn",
+  nextArrow: ".next-btn",
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+
+      }
+    }
+  ]
+});

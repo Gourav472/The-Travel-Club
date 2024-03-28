@@ -301,13 +301,125 @@
 }
 
 /* SECTION-4/////////////////// */
+/* slider1////////// */
+.slider1-card1 {
+    max-width: 367px;
+    background: var(--blue2);
+    border-radius: 13px;
+}
 
+.br_13 {
+    border-radius: 13px 13px 0px 0px;
+    min-height: 271px;
+}
 
+.zoom2 {
+    transition: all 300ms linear;
+}
 
+.slider1-card1:hover .zoom2 {
+    transform: scale(1.2);
+}
 
+.slider-50 {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    max-width: 123px;
+    border-radius: 42px;
+    padding: 10px 28px;
+    background: var(--blur);
+    backdrop-filter: blur(8px);
+}
 
+.padding-card-1 {
+    padding: 16px 20px 21px 20px;
+}
 
+.gap-11 {
+    gap: 11px;
+}
 
+.gap_6 {
+    gap: 6px;
+}
+
+.card_para1 {
+    max-width: 327px;
+    opacity: 90%;
+}
+
+.py-slider-1 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.slick-slider {
+    margin: 0 -10px;
+}
+
+.slick-slide {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.responsive_1.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: inherit !important;
+}
+
+.slick-slide .div {
+    display: flex !important;
+}
+
+.slick-dots {
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    display: flex !important;
+}
+
+.responsive_1 .slick-dots li button:before {
+    height: 12px;
+    width: 28px;
+    background-color: var(--white);
+    position: absolute;
+    left: 50%;
+    border-radius: 21px;
+    font-size: 0;
+    opacity: 1;
+}
+
+.responsive_1 .slick-dots li.slick-active button:before {
+    width: 59px;
+    opacity: 1;
+    height: 15px;
+    background-color: var(--blue);
+    transform: translateX(-38px);
+    opacity: 1;
+    top: -5%;
+}
+
+.pb_110 {
+    padding-bottom: 110px;
+}
+
+/* section-5//////////////// */
+.bg-img-sec5 {
+    background: var(--bg-blue-1);
+    background-image: url(../images/sec-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pt-130{
+    padding-top: 130px;
+}
 
 
 
@@ -356,6 +468,18 @@
     }
 }
 
+@media (min-width:992px) {
+    .responsive_1 .slick-dots li.slick-active button:before {
+        width: 59px;
+        opacity: 1;
+        height: 13px;
+        background-color: var(--blue);
+        transform: translateX(-38px);
+        opacity: 1;
+        top: 0%;
+    }
+}
+
 @media (max-width:768px) {
     .over_flow_x {
         overflow-x: scroll;
@@ -377,6 +501,10 @@
 
     .py-sec-3 {
         padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .pb_110 {
         padding-bottom: 50px;
     }
 }

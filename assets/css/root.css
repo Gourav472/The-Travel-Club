@@ -47,27 +47,34 @@
     --grey: #FDFDFD66;
     --grey2: #8A8EF714;
     --grey3: #FFFFFF99;
-    --black2:#FFFFFF14;
+    --black2: #FFFFFF14;
 }
-.blur{
+
+.blur {
     color: var(--blur);
 }
-.dark{
+
+.dark {
     color: var(--dark);
 }
-.fw-3{
+
+.fw-3 {
     font-weight: var(--fw-3);
 }
-.black2{
+
+.black2 {
     color: var(--black2);
 }
-.grey3{
+
+.grey3 {
     color: var(--grey3);
 }
-.grey2{
+
+.grey2 {
     color: var(--grey2);
 }
-.grey{
+
+.grey {
     color: var(--grey);
 }
 
@@ -222,7 +229,7 @@
         --fs-28: 28px;
         --fs-32: 32px;
         --fs-36: 36px;
-        --fs-48: 48px;
+        --fs-48: 32px;
         --fs-64: 32px;
 
         /* LINE-HEIGHT */
@@ -239,7 +246,7 @@
         --lh-36: 36px;
         --lh-37: 37px;
         --lh-42: 42px;
-        --lh-56: 56px;
+        --lh-56: 45px;
         --lh-75: 45px;
 
 

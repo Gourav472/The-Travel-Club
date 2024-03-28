@@ -470,7 +470,24 @@
 .mt_43 {
     margin-top: 43px !important;
 }
-
+.slider2-card{
+    max-width: 367px;
+   background: var(--blue2);
+   border-radius: 13px;
+}
+.border_13{
+    border-radius: 13px 13px 0px 0px;
+}
+.padding-card-2{
+    padding: 20px 0px 22px 24px;
+}
+.py-slider_2{
+    padding-top: 50px;
+    padding-bottom: 96px;  
+}
+.pb-160{
+    padding-bottom: 160px;
+}
 
 
 
@@ -566,6 +583,13 @@
 
     .sec5-box {
         padding: 20px;
+    }
+    .py-slider_2{
+        padding-top: 50px;
+        padding-bottom: 40px;   
+    }
+    .pb-160{
+        padding-bottom: 50px;
     }
 }
 

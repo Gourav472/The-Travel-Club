@@ -51,9 +51,11 @@
     --blue2: #1219D233;
     --bg-blue-1: #140F40;
 }
-.bg-blue-1{
-    color:var(--bg-blue-1);
+
+.bg-blue-1 {
+    color: var(--bg-blue-1);
 }
+
 .blue2 {
     color: var(--blue2);
 }

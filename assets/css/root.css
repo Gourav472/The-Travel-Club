@@ -38,7 +38,7 @@
     --fw-9: 900;
 
     /* COLORS */
-    --blur2:  #1219D220;
+    --blur2: #1219D220;
     --blur: #01010140;
     --dark: #140D1B;
     --white: #FFFFFF;
@@ -64,6 +64,7 @@
 .blur {
     color: var(--blur);
 }
+
 .blur2 {
     color: var(--blur2);
 }

@@ -433,7 +433,7 @@
 }
 
 .sec5-box {
-    background:var(--blur2);
+    background: var(--blur2);
     max-width: 582px;
     border-radius: 20.69px;
     padding: 29px 50px 30px 50px;
@@ -470,24 +470,30 @@
 .mt_43 {
     margin-top: 43px !important;
 }
-.slider2-card{
+
+.slider2-card {
     max-width: 367px;
-   background: var(--blue2);
-   border-radius: 13px;
+    background: var(--blue2);
+    border-radius: 13px;
 }
-.border_13{
+
+.border_13 {
     border-radius: 13px 13px 0px 0px;
 }
-.padding-card-2{
+
+.padding-card-2 {
     padding: 20px 0px 22px 24px;
 }
-.py-slider_2{
+
+.py-slider_2 {
     padding-top: 50px;
-    padding-bottom: 96px;  
+    padding-bottom: 96px;
 }
-.pb-160{
+
+.pb-160 {
     padding-bottom: 160px;
 }
+
 /* .rotate {
     animation: rotate 6s linear infinite;
 }
@@ -503,12 +509,13 @@
 } */
 /* ACCORDIAN//////////////////////// */
 
-.accordion-body{
-    padding: 0px 0px 16px 0px !important;
+.accordion-body {
+    padding: 0px 9px 16px 0px !important;
 }
+
 .accordion-button {
     background-color: var(--dark) !important;
-padding: 16px 0px 16px 0px !important;
+    padding: 16px 9px 16px 0px !important;
 }
 
 .accordion-item {
@@ -539,56 +546,72 @@ padding: 16px 0px 16px 0px !important;
     --bs-accordion-btn-focus-box-shadow: none !important;
     /* --bs-accordion-border-width: none; */
 }
-.accord-text{
+
+.accord-text {
     color: var(--white) !important;
 }
-.max-561{
+
+.max-561 {
     max-width: 561px;
 }
-.op-70{
+
+.op-70 {
     opacity: 70%;
     max-width: 564px;
 }
-.max-537{
+
+.max-537 {
     max-width: 537px;
 }
-.max-483{
+
+.max-483 {
     max-width: 483px;
 }
-.py-accordian{
+
+.py-accordian {
     padding-top: 53px;
     padding-bottom: 160px;
 }
+
 /* FOOTER////////////////// */
 
-.pt-47{
+.pt-47 {
     padding-top: 47px;
 }
-.max-260{
+
+.max-260 {
     max-width: 260px;
 }
-.py-footer{
+
+.py-footer {
     padding-top: 44px;
     padding-bottom: 50px;
 }
-.gap-16{
+
+.gap-16 {
     gap: 16px;
 }
-.pt_2{
+
+.pt_2 {
     padding-top: 2px;
 }
-.gap_18{
+
+.gap_18 {
     gap: 18px;
 }
-.gap_32{
+
+.gap_32 {
     gap: 32px;
 }
-.translate_y{
+
+.translate_y {
     transition: all 300ms linear;
 }
-.translate_y:hover{
+
+.translate_y:hover {
     transform: translateY(-10px);
 }
+
 /* back to top */
 
 #myBtn {
@@ -606,6 +629,61 @@ padding: 16px 0px 16px 0px !important;
     border: 2px solid var(--white);
 
 
+}
+
+.star_1 {
+    right: 0%;
+    bottom: -10%;
+}
+
+.star_2 {
+    left: 0%;
+    bottom: -15%;
+}
+
+.star_3 {
+    right: 0%;
+    bottom: 0%;
+}
+
+.slider1-elipse1 {
+    left: 0%;
+    top: -30%;
+}
+
+.slider1-elipse2 {
+    right: 0%;
+    top: -30%;
+}
+
+.star_4 {
+    right: 0%;
+    top: 15%;
+}
+
+.slider2-ellipse1 {
+    left: 0%;
+    bottom: -35%;
+}
+
+.slider2-ellipse2 {
+    right: 0%;
+    top: -35%;
+}
+
+.star_5 {
+    left: 0%;
+    bottom: 33%;
+}
+
+.last-ellipse-1 {
+    right: 0%;
+    top: -50%;
+}
+
+.star_6 {
+    right: 0%;
+    bottom: 0%;
 }
 
 
@@ -694,14 +772,17 @@ padding: 16px 0px 16px 0px !important;
     .sec5-box {
         padding: 20px;
     }
-    .py-slider_2{
+
+    .py-slider_2 {
         padding-top: 50px;
-        padding-bottom: 40px;   
+        padding-bottom: 40px;
     }
-    .pb-160{
+
+    .pb-160 {
         padding-bottom: 50px;
     }
-    .py-accordian{
+
+    .py-accordian {
         padding-top: 50px;
         padding-bottom: 50px;
     }

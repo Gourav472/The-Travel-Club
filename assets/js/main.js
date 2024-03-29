@@ -30,13 +30,13 @@ $('.responsive_1').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   arrows: false,
-  autoplay:false,
+  autoplay: false,
   speed: 900,
   prevArrow: ".prev-btn",
   nextArrow: ".next-btn",
   responsive: [
     {
-      breakpoint:1440,
+      breakpoint: 1440,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,

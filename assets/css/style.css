@@ -380,6 +380,19 @@
     gap: 7px;
     display: flex !important;
 }
+.blue-line::after{
+    content: '';
+    width:103%;
+    border-radius: 21px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 11px;
+    z-index: -1 !important;
+    display: block;
+    background: blue;
+    height: 21px;
+}
 
 .responsive_1 .slick-dots li button:before {
     height: 12px;

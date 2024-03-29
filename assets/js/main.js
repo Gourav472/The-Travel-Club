@@ -6,17 +6,26 @@ function openNav() {
 function upside() {
   document.getElementById("mini-svg").classList.toggle("translate_up")
 }
+
 $('.responsive_1').slick({
   dots: true,
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
   arrows: false,
-  autoplay: false,
+  autoplay:false,
   speed: 900,
   prevArrow: ".prev-btn",
   nextArrow: ".next-btn",
   responsive: [
+    {
+      breakpoint:1440,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+      }
+    },
     {
       breakpoint: 992,
       settings: {

@@ -433,7 +433,7 @@
 }
 
 .sec5-box {
-    background: var(--blue);
+    background:var(--blur2);
     max-width: 582px;
     border-radius: 20.69px;
     padding: 29px 50px 30px 50px;
@@ -488,10 +488,77 @@
 .pb-160{
     padding-bottom: 160px;
 }
+/* .rotate {
+    animation: rotate 6s linear infinite;
+}
 
+@keyframes rotate {
+    from {
+        transform: rotate(-80deg);
+    }
 
+    to {
+        transform: rotate(80deg);
+    }
+} */
+/* ACCORDIAN//////////////////////// */
 
+.accordion-body{
+    padding: 0px 0px 16px 0px !important;
+}
+.accordion-button {
+    background-color: var(--dark) !important;
+padding: 16px 0px 16px 0px !important;
+}
 
+.accordion-item {
+    background: var(--dark) !important;
+}
+
+.accord {
+    max-width: 749px;
+
+}
+
+.accordion-button::after {
+    background-image: url(../images/svg/up.svg) !important;
+    transform: rotate(180deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/svg/down2.svg) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--white);
+    background-color: var(--dark) !important;
+    box-shadow: none !important;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    /* --bs-accordion-border-width: none; */
+}
+.accord-text{
+    color: var(--white) !important;
+}
+.max-561{
+    max-width: 561px;
+}
+.op-70{
+    opacity: 70%;
+    max-width: 564px;
+}
+.max-537{
+    max-width: 537px;
+}
+.max-483{
+    max-width: 483px;
+}
+.py-accordian{
+    padding-top: 53px;
+    padding-bottom: 160px;
+}
 
 
 
@@ -589,6 +656,10 @@
         padding-bottom: 40px;   
     }
     .pb-160{
+        padding-bottom: 50px;
+    }
+    .py-accordian{
+        padding-top: 50px;
         padding-bottom: 50px;
     }
 }

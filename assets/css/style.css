@@ -380,9 +380,10 @@
     gap: 7px;
     display: flex !important;
 }
-.blue-line::after{
+
+.blue-line::after {
     content: '';
-    width:103%;
+    width: 103%;
     border-radius: 21px;
     position: absolute;
     left: 0;
@@ -523,12 +524,16 @@
 }
 
 .accordion-button {
-    background-color: var(--dark) !important;
+    background: transparent !important;
     padding: 16px 9px 16px 0px !important;
 }
 
 .accordion-item {
-    background: var(--dark) !important;
+    background: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background: none !important;
 }
 
 .accord {
@@ -547,7 +552,6 @@
 
 .accordion-button:not(.collapsed) {
     color: var(--white);
-    background-color: var(--dark) !important;
     box-shadow: none !important;
 }
 

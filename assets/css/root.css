@@ -49,10 +49,13 @@
     --grey2: #8A8EF714;
     --grey3: #FFFFFF99;
     --black2: #FFFFFF14;
-    --blue2: #1219D233;
+    --blue2: #141248;
     --bg-blue-1: #140F40;
+    --nav-bg-1: #FFFFFF0A;
 }
-
+.nav-bg-1{
+    color: var(--nav-bg-1);
+}
 .bg-blue-1 {
     color: var(--bg-blue-1);
 }
